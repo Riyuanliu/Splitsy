@@ -11,6 +11,14 @@
 		4CEE52B82B805723001811DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE52B72B805723001811DA /* ContentView.swift */; };
 		4CEE52BA2B805725001811DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE52B92B805725001811DA /* Assets.xcassets */; };
 		4CEE52BD2B805725001811DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE52BC2B805725001811DA /* Preview Assets.xcassets */; };
+		604BC88C2B814ADE00A8A8AA /* recognize_receipt.py in Resources */ = {isa = PBXBuildFile; fileRef = 604BC88B2B814ADE00A8A8AA /* recognize_receipt.py */; };
+		604BC88E2B81503F00A8A8AA /* receipt-where-food-adds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 604BC88D2B81503F00A8A8AA /* receipt-where-food-adds.jpg */; };
+		604BC8902B81970800A8A8AA /* response1.json in Resources */ = {isa = PBXBuildFile; fileRef = 604BC88F2B81970800A8A8AA /* response1.json */; };
+		604BC8942B81A16500A8A8AA /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BC8932B81A16500A8A8AA /* UploadView.swift */; };
+		604BC8962B81A1BC00A8A8AA /* DivideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BC8952B81A1BC00A8A8AA /* DivideView.swift */; };
+		604BC8982B81A20500A8A8AA /* DivideEvenlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BC8972B81A20500A8A8AA /* DivideEvenlyView.swift */; };
+		604BC89A2B81A24200A8A8AA /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BC8992B81A24200A8A8AA /* PayView.swift */; };
+		604BC89C2B81A27600A8A8AA /* DivideByPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BC89B2B81A27600A8A8AA /* DivideByPersonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		4CEE52B72B805723001811DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CEE52B92B805725001811DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEE52BC2B805725001811DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		604BC88B2B814ADE00A8A8AA /* recognize_receipt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = recognize_receipt.py; path = "../../../../Desktop/CS395 Intro to Data Science/Splistsy/recognize_receipt.py"; sourceTree = "<group>"; };
+		604BC88D2B81503F00A8A8AA /* receipt-where-food-adds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "receipt-where-food-adds.jpg"; sourceTree = "<group>"; };
+		604BC88F2B81970800A8A8AA /* response1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response1.json; sourceTree = "<group>"; };
+		604BC8932B81A16500A8A8AA /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		604BC8952B81A1BC00A8A8AA /* DivideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideView.swift; sourceTree = "<group>"; };
+		604BC8972B81A20500A8A8AA /* DivideEvenlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideEvenlyView.swift; sourceTree = "<group>"; };
+		604BC8992B81A24200A8A8AA /* PayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayView.swift; sourceTree = "<group>"; };
+		604BC89B2B81A27600A8A8AA /* DivideByPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideByPersonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,15 @@
 			children = (
 				4CEE52B52B805723001811DA /* SplitsyApp.swift */,
 				4CEE52B72B805723001811DA /* ContentView.swift */,
+				604BC89B2B81A27600A8A8AA /* DivideByPersonView.swift */,
+				604BC8992B81A24200A8A8AA /* PayView.swift */,
+				604BC8972B81A20500A8A8AA /* DivideEvenlyView.swift */,
+				604BC8952B81A1BC00A8A8AA /* DivideView.swift */,
+				604BC8932B81A16500A8A8AA /* UploadView.swift */,
 				4CEE52B92B805725001811DA /* Assets.xcassets */,
+				604BC88B2B814ADE00A8A8AA /* recognize_receipt.py */,
+				604BC88D2B81503F00A8A8AA /* receipt-where-food-adds.jpg */,
+				604BC88F2B81970800A8A8AA /* response1.json */,
 				4CEE52BB2B805725001811DA /* Preview Content */,
 			);
 			path = Splitsy;
@@ -125,8 +149,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604BC88E2B81503F00A8A8AA /* receipt-where-food-adds.jpg in Resources */,
+				604BC88C2B814ADE00A8A8AA /* recognize_receipt.py in Resources */,
 				4CEE52BD2B805725001811DA /* Preview Assets.xcassets in Resources */,
 				4CEE52BA2B805725001811DA /* Assets.xcassets in Resources */,
+				604BC8902B81970800A8A8AA /* response1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604BC8942B81A16500A8A8AA /* UploadView.swift in Sources */,
 				4CEE52B82B805723001811DA /* ContentView.swift in Sources */,
 				4CEE52B62B805723001811DA /* SplitsyApp.swift in Sources */,
+				604BC89A2B81A24200A8A8AA /* PayView.swift in Sources */,
+				604BC89C2B81A27600A8A8AA /* DivideByPersonView.swift in Sources */,
+				604BC8982B81A20500A8A8AA /* DivideEvenlyView.swift in Sources */,
+				604BC8962B81A1BC00A8A8AA /* DivideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

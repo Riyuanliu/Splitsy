@@ -7,12 +7,17 @@
 
 import SwiftUI
 
+
 ///
 ///
 ///
 ///
 ///
 //This Is just the start up screen, the first thing the user will see when they open the app
+let customColor = Color(red: 249.0/255.0, green: 246.0/255.0, blue: 238.0/255.0)
+
+
+
 struct ContentView: View {
     @State private var username: String = ""
     @State private var password: String = ""
@@ -46,9 +51,12 @@ struct ContentView: View {
                     }
                     .position(CGPoint(x: 195, y: 0))
                     
-                    Button("Sign In") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                    }
+//                    Button("Sign In") {
+//                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+//                    }
+                    NavigationLink("Sign In",destination: HomepageView())
+                                                    .font(.title3)
+                                                    .accentColor(.white)
                     .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
                     .accentColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                     .position(CGPoint(x: 195, y: 200))
@@ -180,12 +188,57 @@ struct signUpView:View {
 ///
 ///
 ///
-
-
-#Preview {
-    ContentView()
+struct HomepageView: View {
+    var body: some View {
+        NavigationView {
+            ZStack {
+                VStack {
+                    HStack(alignment: .top) {
+                        NavigationLink(destination: UploadView()) {
+                                                    Image("Camera")
+                                                }
+                        Spacer()
+                        Image("Logo")
+                        Spacer()
+                        Image("PFP")
+                    }
+                    .padding()
+                    
+                    
+                    VStack {
+                        // Box for past translation
+                        VStack(spacing: 0) {
+                            ZStack {
+                                Rectangle()
+                                    .fill(Color.green)
+                                    .frame(maxHeight: .infinity) // Ensure the rectangle fills the height
+                                    .cornerRadius(20)
+                                    .fixedSize(horizontal: false, vertical: true) // Allow horizontal expansion
+                                Text("Your Text Here") // Add your text
+                                        .foregroundColor(.white)
+                                        .padding()
+                            }
+                            Rectangle()
+                                .fill(customColor)
+                        }
+                        // Box for spending summary
+                        Rectangle()
+                            .fill(Color.green)
+                            .cornerRadius(20)
+                            .frame(height: 400) // Adjust height as needed
+                            .padding()
+                    }
+                    .padding()
+                    Spacer() // Add spacer to push content to the top
+                }
+            }
+            .navigationBarTitle("")
+            .navigationBarHidden(true)
+        }
+        .navigationViewStyle(StackNavigationViewStyle()) // Customize navigation view style
+    }
 }
 
 #Preview {
-    signUpView()
+    ContentView()
 }

@@ -1,0 +1,814 @@
+{
+  "merchantAddress" : {
+    "confidenceLevel" : 0
+  },
+  "location" : {
+    "location" : {
+      "time_zone" : "America\/New_York",
+      "latitude" : 40.601100000000002,
+      "longitude" : -73.947500000000005,
+      "metro_code" : 501,
+      "accuracy_radius" : 1
+    },
+    "city" : {
+      "geoname_id" : 5110302,
+      "names" : {
+        "fr" : "Brooklyn",
+        "de" : "Brooklyn",
+        "ru" : "Бруклин",
+        "pt-BR" : "Brooklyn",
+        "es" : "Brooklyn",
+        "en" : "Brooklyn",
+        "zh-CN" : "布鲁克林区",
+        "ja" : "ブルックリン区"
+      }
+    },
+    "country" : {
+      "geoname_id" : 6252001,
+      "iso_code" : "US",
+      "names" : {
+        "fr" : "États-Unis",
+        "de" : "USA",
+        "ru" : "США",
+        "pt-BR" : "Estados Unidos",
+        "es" : "Estados Unidos",
+        "en" : "United States",
+        "zh-CN" : "美国",
+        "ja" : "アメリカ合衆国"
+      }
+    },
+    "postal" : {
+      "code" : "11229"
+    },
+    "subdivisions" : [
+      {
+        "geoname_id" : 5128638,
+        "iso_code" : "NY",
+        "names" : {
+          "fr" : "New York",
+          "de" : "New York",
+          "ru" : "Нью-Йорк",
+          "pt-BR" : "Nova Iorque",
+          "es" : "Nueva York",
+          "en" : "New York",
+          "zh-CN" : "纽约州",
+          "ja" : "ニューヨーク州"
+        }
+      }
+    ],
+    "continent" : {
+      "geoname_id" : 6255149,
+      "names" : {
+        "fr" : "Amérique du Nord",
+        "de" : "Nordamerika",
+        "ru" : "Северная Америка",
+        "pt-BR" : "América do Norte",
+        "es" : "Norteamérica",
+        "en" : "North America",
+        "zh-CN" : "北美洲",
+        "ja" : "北アメリカ"
+      },
+      "code" : "NA"
+    },
+    "registered_country" : {
+      "geoname_id" : 6252001,
+      "iso_code" : "US",
+      "names" : {
+        "fr" : "États-Unis",
+        "de" : "USA",
+        "ru" : "США",
+        "pt-BR" : "Estados Unidos",
+        "es" : "Estados Unidos",
+        "en" : "United States",
+        "zh-CN" : "美国",
+        "ja" : "アメリカ合衆国"
+      }
+    }
+  },
+  "paymentType" : {
+    "confidenceLevel" : 0
+  },
+  "merchantName" : {
+    "confidenceLevel" : 0
+  },
+  "merchantState" : {
+    "confidenceLevel" : 0
+  },
+  "merchantTypes" : {
+    "confidenceLevel" : 0
+  },
+  "entities" : {
+    "multiTaxLineItems" : [
+      {
+        "data" : {
+          "taxAmount" : {
+            "text" : "5.84",
+            "data" : 5.8399999999999999
+          }
+        },
+        "confidenceLevel" : 0.98999999999999999,
+        "regions" : [
+          [
+            {
+              "x" : 52,
+              "y" : 342
+            },
+            {
+              "x" : 76,
+              "y" : 342
+            },
+            {
+              "x" : 76,
+              "y" : 354
+            },
+            {
+              "x" : 53,
+              "y" : 354
+            }
+          ],
+          [
+            {
+              "x" : 175,
+              "y" : 343
+            },
+            {
+              "x" : 198,
+              "y" : 343
+            },
+            {
+              "x" : 198,
+              "y" : 353
+            },
+            {
+              "x" : 175,
+              "y" : 354
+            }
+          ]
+        ],
+        "index" : 13
+      }
+    ],
+    "IBAN" : {
+      "confidenceLevel" : 0
+    },
+    "invoiceNumber" : {
+      "confidenceLevel" : 0
+    },
+    "receiptNumber" : {
+      "confidenceLevel" : 0
+    },
+    "last4" : {
+      "confidenceLevel" : 0
+    }
+  },
+  "taxAmount" : {
+    "index" : 13,
+    "data" : 5.8399999999999999,
+    "confidenceLevel" : 0.91999999999999993,
+    "keyword" : "-",
+    "regions" : [
+      [
+        {
+          "x" : 52,
+          "y" : 342
+        },
+        {
+          "x" : 76,
+          "y" : 342
+        },
+        {
+          "x" : 76,
+          "y" : 354
+        },
+        {
+          "x" : 53,
+          "y" : 354
+        }
+      ],
+      [
+        {
+          "x" : 175,
+          "y" : 343
+        },
+        {
+          "x" : 198,
+          "y" : 343
+        },
+        {
+          "x" : 198,
+          "y" : 353
+        },
+        {
+          "x" : 175,
+          "y" : 354
+        }
+      ]
+    ],
+    "text" : "TAX 5.84"
+  },
+  "dueDate" : {
+    "confidenceLevel" : 0
+  },
+  "numbers" : [
+    {
+      "index" : 2,
+      "data" : 5,
+      "regions" : [
+        [
+          {
+            "x" : 53,
+            "y" : 84
+          },
+          {
+            "x" : 170,
+            "y" : 85
+          },
+          {
+            "x" : 170,
+            "y" : 95
+          },
+          {
+            "x" : 53,
+            "y" : 96
+          }
+        ]
+      ],
+      "text" : "STATION #5 SERV #648"
+    },
+    {
+      "index" : 2,
+      "data" : 648,
+      "regions" : [
+        [
+          {
+            "x" : 53,
+            "y" : 84
+          },
+          {
+            "x" : 170,
+            "y" : 85
+          },
+          {
+            "x" : 170,
+            "y" : 95
+          },
+          {
+            "x" : 53,
+            "y" : 96
+          }
+        ]
+      ],
+      "text" : "STATION #5 SERV #648"
+    },
+    {
+      "index" : 5,
+      "data" : 1,
+      "regions" : [
+        [
+          {
+            "x" : 31,
+            "y" : 185
+          },
+          {
+            "x" : 196,
+            "y" : 185
+          },
+          {
+            "x" : 196,
+            "y" : 196
+          },
+          {
+            "x" : 31,
+            "y" : 196
+          }
+        ]
+      ],
+      "text" : "1 CHCKN POT PIE 11.50"
+    },
+    {
+      "index" : 6,
+      "data" : 1,
+      "regions" : [
+        [
+          {
+            "x" : 32,
+            "y" : 200
+          },
+          {
+            "x" : 196,
+            "y" : 200
+          },
+          {
+            "x" : 196,
+            "y" : 210
+          },
+          {
+            "x" : 32,
+            "y" : 211
+          }
+        ]
+      ],
+      "text" : "1 ROAST CHCKN 13.50"
+    },
+    {
+      "index" : 7,
+      "data" : 1,
+      "regions" : [
+        [
+          {
+            "x" : 32,
+            "y" : 214
+          },
+          {
+            "x" : 196,
+            "y" : 214
+          },
+          {
+            "x" : 196,
+            "y" : 224
+          },
+          {
+            "x" : 32,
+            "y" : 224
+          }
+        ]
+      ],
+      "text" : "1 SALAD 8.95"
+    },
+    {
+      "index" : 8,
+      "data" : 1,
+      "regions" : [
+        [
+          {
+            "x" : 32,
+            "y" : 228
+          },
+          {
+            "x" : 197,
+            "y" : 228
+          },
+          {
+            "x" : 197,
+            "y" : 238
+          },
+          {
+            "x" : 32,
+            "y" : 238
+          }
+        ]
+      ],
+      "text" : "1 BRUSSELS SPROUTS 7.95"
+    },
+    {
+      "index" : 9,
+      "data" : 1,
+      "regions" : [
+        [
+          {
+            "x" : 31,
+            "y" : 243
+          },
+          {
+            "x" : 197,
+            "y" : 243
+          },
+          {
+            "x" : 196,
+            "y" : 253
+          },
+          {
+            "x" : 31,
+            "y" : 252
+          }
+        ]
+      ],
+      "text" : "1 ICED TEA 3.00"
+    },
+    {
+      "index" : 11,
+      "data" : 1,
+      "regions" : [
+        [
+          {
+            "x" : 31,
+            "y" : 272
+          },
+          {
+            "x" : 196,
+            "y" : 271
+          },
+          {
+            "x" : 196,
+            "y" : 282
+          },
+          {
+            "x" : 31,
+            "y" : 282
+          }
+        ]
+      ],
+      "text" : "1 LEMONADE 5.00"
+    },
+    {
+      "index" : 16,
+      "data" : 8,
+      "regions" : [
+        [
+          {
+            "x" : 41,
+            "y" : 414
+          },
+          {
+            "x" : 183,
+            "y" : 413
+          },
+          {
+            "x" : 182,
+            "y" : 426
+          },
+          {
+            "x" : 40,
+            "y" : 427
+          }
+        ]
+      ],
+      "text" : "** PARTIES OF 8 OR MORE **"
+    }
+  ],
+  "merchantCity" : {
+    "confidenceLevel" : 0
+  },
+  "merchantCountryCode" : {
+    "confidenceLevel" : 0
+  },
+  "merchantPostalCode" : {
+    "confidenceLevel" : 0
+  },
+  "date" : {
+    "confidenceLevel" : 0
+  },
+  "elapsed" : 2128.3418045043945,
+  "amounts" : [
+    {
+      "text" : "1 TRKY BRGR \/ NO BUN 12.00",
+      "data" : 12,
+      "regions" : [
+        [
+          {
+            "x" : 31,
+            "y" : 171
+          },
+          {
+            "x" : 197,
+            "y" : 170
+          },
+          {
+            "x" : 197,
+            "y" : 181
+          },
+          {
+            "x" : 31,
+            "y" : 182
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 4
+    },
+    {
+      "text" : "1 CHCKN POT PIE 11.50",
+      "data" : 11.5,
+      "regions" : [
+        [
+          {
+            "x" : 31,
+            "y" : 185
+          },
+          {
+            "x" : 196,
+            "y" : 185
+          },
+          {
+            "x" : 196,
+            "y" : 196
+          },
+          {
+            "x" : 31,
+            "y" : 196
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 5
+    },
+    {
+      "text" : "1 ROAST CHCKN 13.50",
+      "data" : 13.5,
+      "regions" : [
+        [
+          {
+            "x" : 32,
+            "y" : 200
+          },
+          {
+            "x" : 196,
+            "y" : 200
+          },
+          {
+            "x" : 196,
+            "y" : 210
+          },
+          {
+            "x" : 32,
+            "y" : 211
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 6
+    },
+    {
+      "text" : "1 SALAD 8.95",
+      "data" : 8.9499999999999993,
+      "regions" : [
+        [
+          {
+            "x" : 32,
+            "y" : 214
+          },
+          {
+            "x" : 196,
+            "y" : 214
+          },
+          {
+            "x" : 196,
+            "y" : 224
+          },
+          {
+            "x" : 32,
+            "y" : 224
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 7
+    },
+    {
+      "text" : "1 BRUSSELS SPROUTS 7.95",
+      "data" : 7.9500000000000002,
+      "regions" : [
+        [
+          {
+            "x" : 32,
+            "y" : 228
+          },
+          {
+            "x" : 197,
+            "y" : 228
+          },
+          {
+            "x" : 197,
+            "y" : 238
+          },
+          {
+            "x" : 32,
+            "y" : 238
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 8
+    },
+    {
+      "text" : "1 ICED TEA 3.00",
+      "data" : 3,
+      "regions" : [
+        [
+          {
+            "x" : 31,
+            "y" : 243
+          },
+          {
+            "x" : 197,
+            "y" : 243
+          },
+          {
+            "x" : 196,
+            "y" : 253
+          },
+          {
+            "x" : 31,
+            "y" : 252
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 9
+    },
+    {
+      "text" : "1 SODA 3.00",
+      "data" : 3,
+      "regions" : [
+        [
+          {
+            "x" : 32,
+            "y" : 257
+          },
+          {
+            "x" : 196,
+            "y" : 257
+          },
+          {
+            "x" : 196,
+            "y" : 267
+          },
+          {
+            "x" : 32,
+            "y" : 267
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 10
+    },
+    {
+      "text" : "1 LEMONADE 5.00",
+      "data" : 5,
+      "regions" : [
+        [
+          {
+            "x" : 31,
+            "y" : 272
+          },
+          {
+            "x" : 196,
+            "y" : 271
+          },
+          {
+            "x" : 196,
+            "y" : 282
+          },
+          {
+            "x" : 31,
+            "y" : 282
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 11
+    },
+    {
+      "text" : "FOOD 64.90",
+      "data" : 64.900000000000006,
+      "regions" : [
+        [
+          {
+            "x" : 54,
+            "y" : 328
+          },
+          {
+            "x" : 198,
+            "y" : 328
+          },
+          {
+            "x" : 198,
+            "y" : 339
+          },
+          {
+            "x" : 53,
+            "y" : 340
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 12
+    },
+    {
+      "text" : "TAX 5.84",
+      "data" : 5.8399999999999999,
+      "regions" : [
+        [
+          {
+            "x" : 52,
+            "y" : 342
+          },
+          {
+            "x" : 198,
+            "y" : 343
+          },
+          {
+            "x" : 198,
+            "y" : 353
+          },
+          {
+            "x" : 53,
+            "y" : 354
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 13
+    },
+    {
+      "text" : "TOTAL 70.74",
+      "data" : 70.739999999999995,
+      "regions" : [
+        [
+          {
+            "x" : 54,
+            "y" : 357
+          },
+          {
+            "x" : 197,
+            "y" : 357
+          },
+          {
+            "x" : 196,
+            "y" : 369
+          },
+          {
+            "x" : 53,
+            "y" : 370
+          }
+        ]
+      ],
+      "currencyCode" : "USD",
+      "index" : 14
+    }
+  ],
+  "itemsCount" : {
+    "confidenceLevel" : 0,
+    "data" : 0
+  },
+  "text" : {
+    "regions" : [
+      {
+        "x" : 23,
+        "y" : 40
+      },
+      {
+        "x" : 201,
+        "y" : 40
+      },
+      {
+        "x" : 201,
+        "y" : 498
+      },
+      {
+        "x" : 23,
+        "y" : 498
+      }
+    ],
+    "text" : "THANK YOU FOR RECOMMENDING US!\nCHECK US OUT ONLINE!\nSTATION #5 SERV #648\nORDER C10 A008763 18:42\n1 TRKY BRGR \/ NO BUN 12.00\n1 CHCKN POT PIE 11.50\n1 ROAST CHCKN 13.50\n1 SALAD 8.95\n1 BRUSSELS SPROUTS 7.95\n1 ICED TEA 3.00\n1 SODA 3.00\n1 LEMONADE 5.00\nFOOD 64.90\nTAX 5.84\nTOTAL 70.74\n** 18% GRATUITY WILL APPLY TO **\n** PARTIES OF 8 OR MORE **\nTHANK YOU!\nPLEASE COME AGAIN"
+  },
+  "totalAmount" : {
+    "index" : 14,
+    "data" : 70.739999999999995,
+    "confidenceLevel" : 0.91999999999999993,
+    "keyword" : "-",
+    "regions" : [
+      [
+        {
+          "x" : 54,
+          "y" : 357
+        },
+        {
+          "x" : 94,
+          "y" : 357
+        },
+        {
+          "x" : 94,
+          "y" : 369
+        },
+        {
+          "x" : 53,
+          "y" : 370
+        }
+      ],
+      [
+        {
+          "x" : 156,
+          "y" : 356
+        },
+        {
+          "x" : 197,
+          "y" : 357
+        },
+        {
+          "x" : 196,
+          "y" : 369
+        },
+        {
+          "x" : 155,
+          "y" : 369
+        }
+      ]
+    ],
+    "text" : "TOTAL 70.74"
+  },
+  "confidenceLevel" : 0.50600000000000001,
+  "lineAmounts" : [
+
+  ]
+}
