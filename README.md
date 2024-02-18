@@ -11,6 +11,7 @@ Splitsy is an iOS app that is intended to make your life easier by providing a s
 ## How we built it
 Our main proof of concept is done with Figma and our attempt at a working prototype was done using Swift and the SwiftUI library. We attempted to use several different OCR receipt scanning APIs including Asprise and Taggun to see which one worked best and how to properly process the receipt data.
 
+<picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/Splitsy/Simulator Screenshot - iPhone 15 Pro - 2024-02-18 at 11.35.37.png" width = 200px></picture>
 ## Challenges we ran into
 
 Actually finishing was a major issue. None of our team members had experience with Swift or making an app in general which is why ultimately we fell short of our goal. It took forever to figure out what was even going on. We were able to get the API working to return processed data and got some views running in Swift but they definitely needed more finish and refinement and actual cohesion. 
@@ -18,6 +19,11 @@ Actually finishing was a major issue. None of our team members had experience wi
 ## Accomplishments that we're proud of
 
 The idea in our eyes was a success as it is an app that we all saw ourselves using. We all experienced the same problem at some point in our lives and as college students who are low on money, managing those dining finances is important to us. I think we can up with great concepts that can be refined and actually implemented moving forward. We managed to brainstorm a solution to a small yet personal problem and we think that's an accomplishment on its own.
+
+## Data accessing
+After we have upload the picture, we use a OCR Api for the receipt, it will return the data in json file, which allow us to access this information during the calucation process.
+
+<picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/Data.png" width = 200px></picture>
 
 ## What we learned
 
