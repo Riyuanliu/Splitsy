@@ -25,6 +25,27 @@ After we have upload the picture, we use a OCR Api for the receipt, it will retu
 
 <picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/Data.png" width = 200px></picture>
 
+## After data is process
+We promt the user to enter the screen to either enter divide evenly or divide by person
+
+<picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/Divide.png" width = 200px></picture>
+
+## Divide Evenly
+We will ask the user for amount of tip they want to pay, than the amount of people that is going
+
+<picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/DivideEvenly.png" width = 200px></picture>
+
+## Divide by person
+We will ask the user for amount of tip they want to pay, than the amount of people that is going along with the food they ate
+
+<picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/DivideByPerson.png" width = 200px></picture>
+<picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/DivideByPerson1.png" width = 200px></picture>
+
+## payment page
+Lastly, we will display each person along with their price that they own.
+
+<picture><img src = "https://github.com/Riyuanliu/Splitsy/blob/main/Payment.png" width = 200px></picture>
+
 ## What we learned
 
 Don't bite off more than you can chew especially with a language you've never worked with before. That really frustrated us and ultimately was our failing point. But on a technical aspect, we got more experience with frontend UI work and got a glimpse into how APIs work on a deeper level and how useful (and expensive) they are. 
