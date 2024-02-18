@@ -1,0 +1,284 @@
+{
+  "ocr_type" : "receipts",
+  "request_id" : "P_68.197.103.203_lsr6ax98_grx",
+  "ref_no" : "",
+  "file_name" : "image.jpg",
+  "request_received_on" : 1708240525533,
+  "success" : true,
+  "image_width" : 338,
+  "image_height" : 450,
+  "image_rotation" : 0,
+  "recognition_completed_on" : 1708240525921,
+  "receipts" : [ {
+    "merchant_name" : "Osteria 177",
+    "merchant_address" : "177 Main Street",
+    "merchant_phone" : "+1 410-267-7700",
+    "merchant_website" : null,
+    "merchant_tax_reg_no" : null,
+    "merchant_company_reg_no" : null,
+    "region" : null,
+    "mall" : null,
+    "country" : "US",
+    "receipt_no" : "410-267-7700",
+    "date" : "2016-12-27",
+    "time" : "20:46",
+    "items" : [ {
+      "amount" : 114.00,
+      "category" : null,
+      "description" : "BIL-CHANTI",
+      "flags" : "",
+      "qty" : 3,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 10.00,
+      "category" : null,
+      "description" : "KETLE ONE",
+      "flags" : "",
+      "qty" : 1,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 57.00,
+      "category" : null,
+      "description" : "Grigliata App",
+      "flags" : "",
+      "qty" : 3,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 40.00,
+      "category" : null,
+      "description" : "ANTIPASTO",
+      "flags" : "",
+      "qty" : 2,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 32.00,
+      "category" : null,
+      "description" : "CAESAR SALAD",
+      "flags" : "",
+      "qty" : 4,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 35.00,
+      "category" : null,
+      "description" : "ORATA FILET",
+      "flags" : "",
+      "qty" : 1,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 35.00,
+      "category" : null,
+      "description" : "SEABASS ESCAROLA",
+      "flags" : "",
+      "qty" : 1,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 9.00,
+      "category" : null,
+      "description" : "VEGITABLE TERINE",
+      "flags" : "",
+      "qty" : 1,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 72.00,
+      "category" : null,
+      "description" : "LASAGNA CINGHIAL",
+      "flags" : "",
+      "qty" : 3,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 26.00,
+      "category" : null,
+      "description" : "MACH PESCE SPADA SICLIA",
+      "flags" : "",
+      "qty" : 1,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 68.00,
+      "category" : null,
+      "description" : "V. CHOP SPC VALDOSTANA",
+      "flags" : "",
+      "qty" : 1,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    }, {
+      "amount" : 99.90,
+      "category" : null,
+      "description" : "20%Gratuity",
+      "flags" : "",
+      "qty" : null,
+      "remarks" : null,
+      "tags" : null,
+      "unitPrice" : null
+    } ],
+    "currency" : "USD",
+    "total" : 633.14,
+    "subtotal" : 499.50,
+    "tax" : 11.30,
+    "service_charge" : 99.90,
+    "tip" : null,
+    "payment_method" : null,
+    "payment_details" : null,
+    "credit_card_type" : null,
+    "credit_card_number" : null,
+    "ocr_text" : "          Osteria 177\n              177 Main Street\n                Annapolis\n                410-267-7700\n    7 KURT B\n   Tbl 44/1          1527         Gst 9\n              Dec27'16 08:46 PM\n    3 BIL-CHANTI               114.00\n    1 KETLE ONE                 10.00\n    3 Grigliata App             57.00\n    2 ANTIPASTO                 40.00\n    4 CAESAR SALAD              32.00\n    1 ORATA FILET                35.00\n    1 SEABASS ESCAROLA           35.00\n    1 VEGITABLE TERINE            9.00\n    3 LASAGNA CINGHIAL           72.00\n    1 MACH PESCE SPADA SICLIA    26.00\n   1 V. CHOP SPC VALDOSTANA      68.00\n     20 %\n     20%Gratuity                 99.90\n     Subtotal                   499.50\n    Sales Tax                     33.74\n    Service Chrg                  99.90\n 10:26 PM Total           633.14\n    Sales Tax                     22.44\n    Liquor Tax                    11.30\n   Thank you for dining with us",
+    "ocr_confidence" : 94.59,
+    "width" : 190,
+    "height" : 382,
+    "avg_char_width" : 4.7547,
+    "avg_line_height" : 8.9375,
+    "conf_amount" : 83,
+    "source_locations" : {
+      "date" : [ [ {
+        "y" : 99,
+        "x" : 105
+      }, {
+        "y" : 99,
+        "x" : 183
+      }, {
+        "y" : 108,
+        "x" : 183
+      }, {
+        "y" : 108,
+        "x" : 105
+      } ] ],
+      "total" : [ [ {
+        "y" : 306,
+        "x" : 166
+      }, {
+        "y" : 306,
+        "x" : 232
+      }, {
+        "y" : 318,
+        "x" : 232
+      }, {
+        "y" : 318,
+        "x" : 166
+      } ] ],
+      "receipt_no" : [ [ {
+        "y" : 50,
+        "x" : 116
+      }, {
+        "y" : 50,
+        "x" : 173
+      }, {
+        "y" : 59,
+        "x" : 173
+      }, {
+        "y" : 59,
+        "x" : 116
+      } ] ],
+      "service_charge" : [ [ {
+        "y" : 294,
+        "x" : 202
+      }, {
+        "y" : 294,
+        "x" : 231
+      }, {
+        "y" : 305,
+        "x" : 231
+      }, {
+        "y" : 305,
+        "x" : 202
+      } ] ],
+      "subtotal" : [ [ {
+        "y" : 269,
+        "x" : 197
+      }, {
+        "y" : 269,
+        "x" : 230
+      }, {
+        "y" : 280,
+        "x" : 230
+      }, {
+        "y" : 280,
+        "x" : 197
+      } ] ],
+      "merchant_name" : [ [ {
+        "y" : 20,
+        "x" : 88
+      }, {
+        "y" : 19,
+        "x" : 190
+      }, {
+        "y" : 30,
+        "x" : 190
+      }, {
+        "y" : 32,
+        "x" : 88
+      } ] ],
+      "doc" : [ [ {
+        "y" : 0,
+        "x" : 33
+      }, {
+        "y" : 0,
+        "x" : 242
+      }, {
+        "y" : 421,
+        "x" : 242
+      }, {
+        "y" : 421,
+        "x" : 33
+      } ] ],
+      "tax" : [ [ {
+        "y" : 347,
+        "x" : 205
+      }, {
+        "y" : 347,
+        "x" : 234
+      }, {
+        "y" : 358,
+        "x" : 234
+      }, {
+        "y" : 358,
+        "x" : 205
+      } ] ],
+      "merchant_phone" : [ [ {
+        "y" : 50,
+        "x" : 116
+      }, {
+        "y" : 50,
+        "x" : 173
+      }, {
+        "y" : 59,
+        "x" : 173
+      }, {
+        "y" : 59,
+        "x" : 116
+      } ] ],
+      "merchant_address" : [ [ {
+        "y" : 31,
+        "x" : 107
+      }, {
+        "y" : 31,
+        "x" : 177
+      }, {
+        "y" : 40,
+        "x" : 177
+      }, {
+        "y" : 41,
+        "x" : 107
+      } ] ]
+    }
+  } ]
+}
